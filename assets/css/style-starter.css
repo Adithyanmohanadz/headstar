@@ -14028,10 +14028,10 @@ a.text-dark:focus {
 
 :root {
   --theme-color: #e40000;
-  --primary-color: #c52038;
+  --primary-color: #161e4a;
   --primary-light: #fcf1e7;
   --primary-dark: #ffc945;
-  --secondary-color: #1c2e7b;
+  --secondary-color: #c52038;
   --font-color: #707070;
   --bg-color: #fff;
   --heading-color: #060606;
