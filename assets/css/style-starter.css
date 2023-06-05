@@ -15552,7 +15552,12 @@ h4.search-pop-text-w3 {
 }
 
 .btn-style-primary {
-  background: var(--primary-color);
+  padding: 12px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all .25s ease-in-out;
+  background: var(--primary-color) ;
   border-color: var(--primary-color);
   color: #fff;
 }
