@@ -14037,7 +14037,7 @@ a.text-dark:focus {
   --heading-color: #060606;
   --footer-color: #060e1f;
   --footer-cpy-color: #040a17;
-  --border-radius: 30px;
+  --border-radius: 4px;
   --border-radius-full: 15px;
   --border-color: transparent;
   --border-color-light: #eee;
@@ -14972,7 +14972,7 @@ a.navbar-brand:hover {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 6px 10px;
   font-size: 15px;
-  color: #fff;
+  color: var(--primary-color);
   opacity: .8;
   font-weight: 500;
 }
@@ -15030,7 +15030,8 @@ a.dropdown-item.active {
 }
 
 header {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: var(--white);
   padding: 0px;
   transition: all 0.4s ease 0s;
   height: 100px;
@@ -15589,6 +15590,7 @@ h4.search-pop-text-w3 {
 /* banner */
 .w3l-banner {
   /* background: url(../images/banner1.jpg) no-repeat center; */
+  background-color: var(--primary-color);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15596,15 +15598,14 @@ h4.search-pop-text-w3 {
   -ms-background-size: cover;
   z-index: 0;
   position: relative;
-  min-height: 800px;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
 }
 
 .w3l-banner:before {
   content: "";
-  background: linear-gradient(180deg, rgb(0 0 0 / 50%) -10%, rgb(0 0 0 / 0%));
+  background: linear-gradient(180deg, rgb(0 0 0 / 50%) -10%, rgb(0 0 0 / 50%));
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15763,7 +15764,7 @@ a.read-button:hover,
 /* stats section */
 .w3_stats {
   padding-top: 90px;
-  background: url(../images/img/rs=w_1160\,h_772\ \(1\).webp) no-repeat center fixed;
+  background: url(../images/img/sub/banner1.jpg) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16599,4 +16600,13 @@ h5.contact-text {
     display: block;
     font-size: 20px;
     margin-right: 5px;
+}
+@media (max-width: 480px) {
+  .HomeAboutImages .row {
+      padding: 0 10px;
+  }
+
+  .HomeAboutImages .col-6 {
+      padding: 0 5px;
+  }
 }
