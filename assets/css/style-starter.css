@@ -15359,7 +15359,7 @@ h4.search-pop-text-w3 {
 
   header {
     height: auto;
-    padding: 17px 0;
+    /* padding: 17px 0; */
   }
 
   .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -15454,7 +15454,7 @@ h4.search-pop-text-w3 {
   }
 
   .navbar {
-    padding: 0.5rem 0rem;
+    padding: 0rem 0rem;
   }
 }
 
