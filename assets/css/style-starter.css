@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8342,6 +8332,13 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
+.fixed-top-h {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -15594,7 +15591,7 @@ h4.search-pop-text-w3 {
 
 /* banner */
 .w3l-banner {
-  /* background: url(../images/banner1.jpg) no-repeat center; */
+  /* background: url(../images/img/rs=w_1160\,h_773.webp) no-repeat center; */
   background-color: var(--primary-color);
   background-size: cover;
   -webkit-background-size: cover;
@@ -15603,14 +15600,15 @@ h4.search-pop-text-w3 {
   -ms-background-size: cover;
   z-index: 0;
   position: relative;
-  min-height: 90vh;
+  /* min-height: 90vh; */
   display: flex;
   align-items: center;
+  
 }
 
 .w3l-banner:before {
   content: "";
-  background: linear-gradient(180deg, rgb(0 0 0 / 50%) -10%, rgb(0 0 0 / 50%));
+  /* background: linear-gradient(180deg, rgb(0 0 0 / 50%) -10%, rgb(0 0 0 / 50%)); */
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15713,7 +15711,7 @@ h4.heading-styles i {
 .w3l-content-11-main,
 .w3l-team,
 .w3l-grids-block-5 {
-  background: var(--bg-light);
+  background: var(--white);
 }
 
 .services-single {
@@ -16184,7 +16182,7 @@ h3.title-big {
 
 /* inner-banner */
 .inner-banner {
-  background: url(../images/img/rs=w_1160\,h_773.webp) no-repeat center;
+  /* background: url(../images/img/rs=w_1160\,h_773.webp) no-repeat center; */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16193,6 +16191,8 @@ h3.title-big {
   min-height: 300px;
   position: relative;
   z-index: 1;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .inner-banner::before {
