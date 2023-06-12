@@ -386,8 +386,8 @@ video {
 
 /*--//team--*/
 
-/*--/w3l-why--*/
-.w3l-index3 {
+/*--/gl-why--*/
+.gl-index3 {
     background-color: var(--bg-color);
   }
   
@@ -406,7 +406,7 @@ video {
   .whybox-wrap h4 a:hover {
     color: var(--primary-color);
   }
-  /*--//w3l-why--*/
+  /*--//gl-why--*/
 
   /* gallery */
   
